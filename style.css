@@ -13,52 +13,65 @@ body {
     align-items: stretch;
 }
 
+/* Background bands */
 .bg-band {
     display: flex;
     justify-content: center;
 }
-
 .bg-band div {
     width: 800px;
     flex: 0 1 auto;
 }
 
+/* Header */
 .header {
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     align-items: end;
-    padding: 16px 8px 8px;
+    padding: 8px;
+    height: 48px;
+    flex: 0 1 auto;
 }
-
 .header * {
     padding: 0;
     margin: 0;
 }
-
 .header-logo {
     font-size: 24px;
 }
-
 .header-links {
     display: flex;
     justify-content: flex-end;
     gap: 16px;
     list-style-type: none;
 }
-
 .header-links a {
     color: inherit;
     text-decoration: none;
 }
 
+/* Footer */
+.footer {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    height: 48px;
+    padding: 8px;
+}
+.footer p {
+    margin: 0;
+}
+
+/* Colors */
 .white {
     color: #F9FAF8;
 }
-
 .gray {
     color: #E5E7EB;
 }
-
 .dark-blue-bg {
     background-color: #1F2937;
 }
