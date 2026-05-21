@@ -164,6 +164,32 @@ body {
     margin: 0;
 }
 
+/* Quote */
+.quote-slice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quote-text,
+.quote-author {
+    padding: 0;
+    margin: 0;
+}
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+}
+.quote-author {
+    font-size: 24px;
+    font-weight: 900;
+    align-self: flex-end;
+}
+
 /* Buttons */
 button {
     background-color: #3882F6;
@@ -181,6 +207,9 @@ button {
 }
 .gray {
     color: #E5E7EB;
+}
+.gray-bg {
+    background-color: #E5E7EB;
 }
 .dark-blue {
     color: #1F2937;
