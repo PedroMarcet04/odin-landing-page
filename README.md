@@ -2,4 +2,4 @@
 A practice project for reinforcing HTML and CSS knowledge following The Odin Project's guidelines.
 
 ## Credits
-- Image credits go here
+- [Anon](https://pixabay.com/photos/horse-head-eye-animal-white-horse-6363466/)
