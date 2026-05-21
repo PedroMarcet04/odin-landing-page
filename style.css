@@ -12,6 +12,10 @@ body {
     justify-content: space-between;
 }
 
+p {
+    margin: 0;
+}
+
 /* Background bands */
 .bg-band {
     display: flex;
@@ -28,13 +32,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: end;
-    padding: 8px;
+    padding: 8px 0;
     height: 48px;
     flex: 0 1 auto;
-}
-.header * {
-    padding: 0;
-    margin: 0;
 }
 .header-logo {
     font-size: 24px;
@@ -58,10 +58,7 @@ body {
     align-items: center;
     font-size: 18px;
     height: 48px;
-    padding: 8px;
-}
-.footer-text {
-    margin: 0;
+    padding: 8px 0;
 }
 
 /* Main content */
@@ -89,16 +86,14 @@ body {
     overflow: hidden;
     box-sizing: border-box;
     height: 100%;
-    padding: 24px 8px;
+    padding: 24px 0;
 }
 .hero-title {
     font-size: 48px;
     font-weight: 900;
-    margin: 0;
 }
 .hero-text {
     font-size: 18px;
-    margin: 0;
     margin-bottom: 16px;
 }
 .hero-image {
@@ -122,8 +117,6 @@ body {
     align-items: center;
     text-align: center;
     font-size: 36px;
-    margin: 0;
-    padding: 0;
 }
 .info-image-boxes {
     flex: 3;
@@ -161,7 +154,6 @@ body {
     align-items: center;
     text-align: center;
     font-size: 18px;
-    margin: 0;
 }
 
 /* Quote */
@@ -175,11 +167,6 @@ body {
     flex-direction: column;
     align-items: center;
 }
-.quote-text,
-.quote-author {
-    padding: 0;
-    margin: 0;
-}
 .quote-text {
     font-size: 36px;
     font-weight: 300;
@@ -188,6 +175,18 @@ body {
     font-size: 24px;
     font-weight: 900;
     align-self: flex-end;
+}
+
+/* Action section */
+.action-slice {
+    display: flex;
+    align-items: center;
+}
+.action-window {
+    margin: auto;
+    padding: 32px;
+    background-color: #3882F6;
+    border-radius: 8px;
 }
 
 /* Buttons */
@@ -199,6 +198,9 @@ button {
     padding: 8px 32px;
     border: 0;
     border-radius: 8px;
+}
+.action-button {
+    border: 2px solid #F9FAF8;
 }
 
 /* Colors */
