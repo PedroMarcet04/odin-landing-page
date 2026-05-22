@@ -176,13 +176,14 @@ p {
 /* Action section */
 .action-slice {
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 .action-window {
-    margin: auto;
     padding: 32px;
     background-color: #3882F6;
     border-radius: 8px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -195,7 +196,6 @@ p {
     font-size: 18px;
 }
 .action-button {
-    flex: 1 0 auto;
     border: 2px solid #F9FAF8;
 }
 
